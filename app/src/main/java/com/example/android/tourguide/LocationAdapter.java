@@ -12,23 +12,26 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * Created by vivek on 28-10-2016.
+ * {@link LocationAdapter} is an {@link ArrayAdapter} that can provide the layout for each list item
+ * based on a data source, which is a list of {@link Location} objects.
  */
 public class LocationAdapter extends ArrayAdapter<Location> {
 
-    /** Resource ID for the background color for this list of words */
-   // private int mColorResourceId;
+    /**
+     * Resource ID for the background color for this list of words
+     */
+    private int mColorResourceId;
 
     /**
-     * Create a new {@link WordAdapter} object.
+     * Create a new {@link LocationAdapter} object.
      *
-     * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param locations is the list of {@link Location}s to be displayed.
+     * @param context         is the current context (i.e. Activity) that the adapter is being created in.
+     * @param locations       is the list of {@link Location}s to be displayed.
      * @param colorResourceId is the resource ID for the background color for this list of words
      */
-    public LocationAdapter(Context context, ArrayList<Location> locations) { //, int colorResourceId) {
+    public LocationAdapter(Context context, ArrayList<Location> locations, int colorResourceId) {
         super(context, 0, locations);
-       // mColorResourceId = colorResourceId;
+        mColorResourceId = colorResourceId;
     }
 
     @Override
@@ -48,6 +51,8 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         // Get the title from the currentLocation object and set this text on
         // the Title TextView.
         titleTextView.setText(currentLocation.getTitle());
+        int color = ContextCompat.getColor(getContext(), mColorResourceId);
+        titleTextView.setTextColor(color);
 
         // Find the TextView in the list_item.xml layout with the ID description_text_view.
         TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description_text_view);
@@ -60,16 +65,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         // Set the ImageView to the image resource specified in the current Location
         imageView.setImageResource(currentLocation.getImageResourceId());
 
-
-        // Set the theme color for the list item
-       // View textContainer = listItemView.findViewById(R.id.text_container);
-        // Find the color that the resource ID maps to
-       // int color = ContextCompat.getColor(getContext(), mColorResourceId);
-        // Set the background color of the text container View
-      //  textContainer.setBackgroundColor(color);
-
-        // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
-        // the ListView.
         return listItemView;
     }
 }

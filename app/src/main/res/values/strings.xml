@@ -1,3 +1,55 @@
 <resources>
     <string name="app_name">Tour Guide</string>
+
+    <!-- Garden and Parks -->
+    <string name="category_park">Parks</string>
+
+    <string name="malampuzha">Malampuzha Gardens</string>
+    <string name="malampuzha_description">Malampuzha Garden is a beautifully landscaped garden on
+        the front side of the Malampuzha Dam. It is full of lush green lawns with well laid-out
+        flower beds.</string>
+
+    <string name="fantasy">Fantasy Park</string>
+    <string name="fantasy_description">Fantasy Park is the first amusement park in Kerala. The
+        attractions include 16D Cine Magic Ride, Planetarium, Dragon Coaster, Super Splash...</string>
+
+    <!-- Waterfalls -->
+    <string name="category_waterfalls">Waterfalls</string>
+
+    <string name="dhoni">Dhoni Waterfalls</string>
+    <string name="dhoni_description">Dhoni hills in Palakkad is popular picnic spot with a small and
+        beautiful waterfall. It takes a three hours trek from the base of the Dhoni hills to reach
+        this reserve forest area.</string>
+
+    <string name="meenvallam">Meenvallam</string>
+    <string name="meenvallam_description">Meenvallam Waterfalls is situated in Palakkad district.
+        Originating from the Thuppanadu River - a part of Western Ghats, these falls drop step by
+        step from a height of 5 to 45 metres.</string>
+
+    <!-- Landmarks -->
+    <string name="category_landmarks">Landmarks</string>
+
+    <string name="palakkad_fort">Palakkad Fort</string>
+    <string name="palakkad_fort_description">Palakkad Fort also known as Tipu sultan\'s Fort is an old fort
+        situated in the heart of Palakkad town of Kerala state, southern India.
+        It was built by Haider Ali in 1766 ACE and remains one of the best preserved forts in Kerala.</string>
+
+    <string name="seethagrundu">Seethagrundu</string>
+    <string name="seethagrundu_description">Seetharkundu Viewpoint is situated at a distance of 8Kms
+        from Nelliyampathy. One of the prime attractions here is the waterfall. A stream runs down
+        from here to form a small lake.</string>
+
+    <!-- Nature -->
+    <string name="category_nature">Nature</string>
+
+    <string name="nelliyampathi">Nelliyampathi</string>
+    <string name="nelliyampathi_description">Nelliyampathy (also spelled Nelliampathi) is a hill
+        station 60 kilometres (37 mi) from Palakkad, state of Kerala, India. Nelliampathy is
+        surrounded by tea and coffee plantations. </string>
+
+    <string name="parambikulam">Parambikulam</string>
+    <string name="parambikulam_description">A jungle safari which will quench one’s desire to
+        witness all important wildlife in the park. A 3 ½ hour jungle safari will reveal the inner
+        secrets of Parambikulam to outside world.</string>
+
 </resources>

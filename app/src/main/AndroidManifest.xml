@@ -15,10 +15,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WaterfallsActivity" />
-        <activity android:name=".GardenAndParksActivity" />
-        <activity android:name=".NatureActivity" />
-        <activity android:name=".LandmarksActivity"></activity>
     </application>
 
 </manifest>

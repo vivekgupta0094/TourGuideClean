@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="colorNature">#4caf50</color>
+    <color name="colorWaterfalls">#2196f3</color>
+    <color name="colorParks">#ff5722</color>
+    <color name="colorLandmarks">#795548</color>
 </resources>
